@@ -1,10 +1,6 @@
 # URLExtractor
 
 Information gathering & website reconnaissance
-
-## Screenshot
-![Screenshot](Screenshot.jpg?raw=ture "Screenshot")
-
 ------
 
 **Usage:**
@@ -29,24 +25,12 @@ Features:
 * Provides useful links at other websites to correlate with IP/ASN
 * Option to open ALL results in browser at the end
 
-Changelog to version 0.1.9:
-------
 
-* Abuse mail using lynx istead of ~~curl~~
-* Target server name parsing fixed
-* More verbose about HTTP codes and directory discovery
-* MD5 collection for IP fixed
-* Links found now show unique URLs from array
-* [New feature] **Google** results
-* [New feature] **Bing** IP check for other hosts/vhosts
-* [New feature] Opened ports from **Shodan**
-* [New feature] **VirusTotal** information about IP
-* [New feature] **Alexa Rank** information about $TARGET_HOST
 
 Requirements:
 ------
 
-Tested on Kali light mini AND OSX 10.11.3 with brew
+Tested on Kali Linux and Ubuntu
 ```
 sudo apt-get install bc curl dnsutils libxml2-utils whois md5sha1sum lynx -y
 ```
@@ -62,32 +46,3 @@ OPEN_TARGET_URLS=NO #open found URLs at the end of script
 OPEN_EXTERNAL_LINKS=NO #open external links (frames) at the end of script
 ```
 
-Todo list:
-------
-
-* [x] Upload to github :)
-* [ ] Integration with other APIs
-* [ ] Add  host regex validation
-* [ ] Use GNU parallel to fuzz URLs
-* [ ] Export to CSV
-* [ ] Possible migration to python
-* [ ] Integration with JoomScan/WPScan/CMSmap
-* [ ] Integration with CipherScan
-* [ ] Check for installed packages
-
-## Download and Clone
-> Download: Click [Here](https://github.com/The404Hacking/URLExtractor/archive/master.zip) (URLExtractor-master.zip)
-
-> Clone: git clone [https://github.com/The404Hacking/URLExtractor.git](https://github.com/The404Hacking/URLExtractor.git)
-
-## The404Hacking | Digital Security ReSearch Group
-[The404Hacking](https://T.me/The404Hacking)
-
-## Follow us !
-[The404Hacking](https://T.me/The404Hacking) - [The404Cracking](https://T.me/The404Cracking)
-
-[Instagram](https://instagram.com/The404Hacking) - [GitHub](https://github.com/The404Hacking)
-
-[YouTube](http://yon.ir/youtube404) - [Aparat](http://www.aparat.com/The404Hacking)
-
-[Weblog](http://the404hacking.blogsky.com) - [Email](mailto:The404Hacking.Team@Gmail.Com)
